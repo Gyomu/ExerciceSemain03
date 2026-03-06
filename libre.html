@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Fixed navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold text-body-emphasis">
+                Centered screenshot
+            </h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    Quickly design and customize responsive mobile-first sites with
+                    Bootstrap, the world’s most popular front-end open source toolkit,
+                    featuring Sass variables and mixins, responsive grid system,
+                    extensive prebuilt components, and powerful JavaScript plugins.
+                </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+                        Primary button
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+                        Secondary
+                    </button>
+                </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh">
+                <div class="container px-5">
+                    <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+                        width="700" height="500" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="text-body-emphasis">Get started with Bootstrap</h1>
+        <p class="fs-5 col-md-8">
+            Quickly and easily get started with Bootstrap's compiled,
+            production-ready files with this barebones example featuring some
+            basic HTML and helpful links. Download all our examples to get
+            started.
+        </p>
+        <hr class="my-5" />
+
+        <div class="row row-cols-1 row-cols-md-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Free</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">
+                            $0<small class="text-body-secondary fw-light">/mo</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+                            Sign up for free
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">
+                            $15<small class="text-body-secondary fw-light">/mo</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">
+                            Get started
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Enterprise</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">
+                            $29<small class="text-body-secondary fw-light">/mo</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">
+                            Contact us
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5" />
+
+
+        <div class="container marketing">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140"
+                        preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <h2 class="fw-normal">عنوان</h2>
+                    <p>
+                        تذكر دائماً أن الحاسوب لا يمتلك ذكاءً، ولكنه يكتسب الذكاء
+                        الاصطناعي من خلال ثلاثة عناصر وظيفية رئيسة، هي: القدرة على
+                        التحليل، والقدرة على التأليف، والاستدلال المنطقي.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#">عرض التفاصيل</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140"
+                        preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <h2 class="fw-normal">عنوان آخر</h2>
+                    <p>
+                        إذا أردنا استخدام الحاسوب الذكي في معالجة اللغة العربية فإننا نجد
+                        أنفسنا أمام تحدٍّ كبير، خاصة وأن لغتنا تمتاز بتماسك منظوماتها
+                        وتداخلها، ومع ذلك فإن الذكاء الاصطناعي يمكّننا من الحصول على أربعة
+                        أنواع من المعالجة، هي: المعالجة الصوتية، والمعالجة الصرفية،
+                        والمعالجة النحوية، والمعالجة الدلالية.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#">عرض التفاصيل</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140"
+                        preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <h2 class="fw-normal">عنوان ثالث لتأكيد المعلومة</h2>
+                    <p>
+                        بفضل بحوث الذكاء الاصطناعي وتقنياته استطعنا الانتقال من مرحلة
+                        التعامل مع الفيزيائي إلى مرحلة التعامل مع المنطقي، وقد انعكس هذا
+                        الانتقال بصورة إيجابية على الكيفية التي تتعامل بها الشعوب مع
+                        لغاتها الحيَّة، وهذا يعني أنه يجب أن ينعكس بصورة إيجابية على كيفية
+                        تعاملنا مع لغتنا العربية.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#">عرض التفاصيل</a></p>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5" />
+
+    </main>
+
+    <footer class="p-2">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Agence</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Accueil</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Nos biens</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Services</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">À propos</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Acheter</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Maisons</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Appartements</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Biens de prestige</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Programmes neufs</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Estimation gratuite</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Informations</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Mentions légales</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Politique de confidentialité</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Conditions générales</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">FAQ</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Recrutement</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Recevez nos nouvelles offres</h5>
+                    <p>Inscrivez-vous pour être informé en avant-première des nouveaux biens disponibles.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Adresse email</label>
+                        <input id="newsletter1" type="email" class="form-control" placeholder="Votre adresse email" />
+                        <button class="btn btn-primary" type="button">S’inscrire</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2026 Horizon Immobilier. Tous droits réservés.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="link-body-emphasis" href="#" aria-label="Instagram">
+                        <svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="link-body-emphasis" href="#" aria-label="Facebook">
+                        <svg class="bi" width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>
